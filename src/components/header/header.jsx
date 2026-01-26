@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap'
 function Header() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
-      <Container>
+      <Container fluid>
         {/* Logo */}
         <Navbar.Brand href="/">
           MinhaLogo

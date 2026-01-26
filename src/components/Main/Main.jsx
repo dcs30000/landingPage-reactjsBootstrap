@@ -3,7 +3,7 @@ import Home from '../../pages/Home'
 
 function Main() {
   return (
-    <main style={{margin: 0, padding: 0}}>
+    <main>
       <Container className="py-5">
         <Home />
       </Container>

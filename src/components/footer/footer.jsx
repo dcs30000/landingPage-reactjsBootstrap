@@ -30,9 +30,9 @@ function Footer() {
             <p>Telefone: (11) 99999-9999</p>
           </Col>
         </Row>
-
+      </Container>
         <hr className="border-secondary" />
-
+      <Container>
         <div className="text-center">
           <small>© 2026 - Todos os direitos reservados</small>
         </div>

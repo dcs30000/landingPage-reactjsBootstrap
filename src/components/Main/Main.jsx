@@ -4,7 +4,7 @@ import Home from '../../pages/Home'
 function Main() {
   return (
     <main>
-      <Container className="py-2">
+      <Container className="py-5">
         <Home />
       </Container>
     </main>

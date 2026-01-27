@@ -24,7 +24,7 @@ function Header() {
 
           {/*Busca*/}
           <Form className='d-flex me-3 my-2 my-lg-0'>
-            <FormControl type='search' placeholder='Buscar produto' className='me-2' > </FormControl>
+            <FormControl type='search' placeholder='Buscar produto' className='me-2'/>
             <Button variant='outline-light'>Buscar</Button>
           </Form>
 

@@ -18,7 +18,8 @@ function Header() {
         <Navbar.Collapse id="menu-principal">
           <Nav className="ms-auto align-items-center gap-3">
             {/*<Nav.Link as={Link} to="/">Home</Nav.Link>*/}
-            <Nav.Link as={Link} to="/casa">Casa</Nav.Link>
+            <Nav.Link as={Link} to="/beleza">Beleza</Nav.Link>
+            <Nav.Link as={Link} to="/casa">Casa</Nav.Link>            
             <Nav.Link as={Link} to="/eletronicos">Eletrônicos</Nav.Link>
             <Nav.Link as={Link} to="/sobre">Sobre</Nav.Link>
             <Nav.Link as={Link} to="/contato">Contato</Nav.Link>

@@ -23,3 +23,23 @@
     display: block;
   }
 }
+
+/* Botão Categorias */
+.categorias-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+}
+
+/* Seta */
+.dropdown-arrow {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+/* Remove seta padrão do Bootstrap */
+#categorias-dropdown::after {
+  display: none;
+}
+

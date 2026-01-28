@@ -18,6 +18,9 @@ function Footer() {
             <h5>Links rápidos</h5>
             <ul className="list-unstyled">
               <li><a href="/" className="text-light text-decoration-none">Home</a></li>
+              <li><a href="/beleza" className='text-light text-decoration-none'>Beleza</a></li>
+              <li><a href="/casa" className='text-light text-decoration-none'>Casa</a></li>
+              <li><a href="/eletronicos" className='text-light text-decoration-none'>Eletrônicos</a></li>
               <li><a href="/sobre" className="text-light text-decoration-none">Sobre</a></li>
               <li><a href="/contato" className="text-light text-decoration-none">Contato</a></li>
             </ul>

@@ -156,9 +156,12 @@ import { Link } from 'react-router-dom'
 import { BsCart3, BsPerson, BsList } from 'react-icons/bs'
 /*Importando a conf. do Mega-menu*/
 import './Header.css'
+/*Efeito passar o mouse no mega-menu*/
+import { useState } from 'react'
 
 
 function Header() {
+  const [showCategorias, setShowCategorias ] = useState(false) /*efeito do mouse no mega-menu*/
   return (
     <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
       <Container fluid>
@@ -176,13 +179,23 @@ function Header() {
 
             {/* BOTÃO CATEGORIAS */}
             <NavDropdown
-              title={
-                <span className="d-flex align-items-center gap-2">
-                  <BsList size={22} /> Categorias
+              /*title={
+                <span className="d-flex align-items-center gap-2"> 
+                  <BsList size={22} /> Categorias  
                 </span>
-              }
-              id="mega-menu"
-              className="mega-menu"
+              }*/
+             title={
+              <span className="categorias-title">
+                ☰ Categorias <span className="dropdown-arrow">▾</span>
+              </span>
+             }
+              /*id="mega-menu"
+              className="mega-menu">*/
+              id="categorias-dropdown"
+                menuVariant="dark"
+                show={showCategorias}
+                onMouseEnter={() => setShowCategorias(true)}
+                onMouseLeave={() => setShowCategorias(false)}
             >
               <Container>
                 <Row className="py-3">

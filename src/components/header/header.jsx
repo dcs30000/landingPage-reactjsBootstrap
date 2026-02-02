@@ -184,20 +184,22 @@ function Header() {
                   <BsList size={22} /> Categorias  
                 </span>
               }*/
-             title={
-              <span className="categorias-title">
-                ☰ Categorias <span className="dropdown-arrow">▾</span>
-              </span>
-             }
-              /*id="mega-menu"
-              className="mega-menu">*/
+
+              /*id="mega-menu"*/
+              className="mega-menu"
               id="categorias-dropdown"
                 menuVariant="dark"
                 show={showCategorias}
                 onMouseEnter={() => setShowCategorias(true)}
                 onMouseLeave={() => setShowCategorias(false)}
+                title={
+                  <span className="categorias-title">
+                    ☰ Categorias <span className="dropdown-arrow">▾</span>
+                  </span>
+             }
             >
-              <Container>
+            <div className='mega-menu-content'>
+              {/*<Container>*/}
                 <Row className="py-3">
 
                   <Col md={4}>
@@ -225,7 +227,8 @@ function Header() {
                   </Col>
 
                 </Row>
-              </Container>
+              {/*</Container>*/}
+            </div>
             </NavDropdown>
 
           </Nav>

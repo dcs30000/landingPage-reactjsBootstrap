@@ -230,7 +230,9 @@ function Header() {
               {/*</Container>*/}
             </div>
             </NavDropdown>
-
+            {/*PAGINAS FIXAS NO MENU*/}
+            <Nav.Link as={Link} to="/contato">Contato</Nav.Link>
+            <Nav.Link as={Link} to="/sobre">Sobre</Nav.Link>
           </Nav>
 
           {/* BUSCA */}

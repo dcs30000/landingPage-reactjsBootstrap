@@ -233,6 +233,9 @@ function Header() {
             {/*PAGINAS FIXAS NO MENU*/}
             <Nav.Link as={Link} to="/contato">Contato</Nav.Link>
             <Nav.Link as={Link} to="/sobre">Sobre</Nav.Link>
+            <Nav.Link as={Link} to="/novidades">Novidades</Nav.Link>
+            <Nav.Link as={Link} to="/ofertas">Ofertas</Nav.Link>
+            <Nav.Link as={Link} to="/mais-vendidos">Mais vendidos</Nav.Link>
           </Nav>
 
           {/* BUSCA */}

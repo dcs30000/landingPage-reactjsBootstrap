@@ -289,11 +289,29 @@ function Header() {
 import {  Navbar, Nav, Container, Form, FormControl, Button, Row, Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { BsCart3, BsPerson } from 'react-icons/bs'
-import { useState } from 'react'
+import { useState , useRef} from 'react'
 import './Header.css'
 
 function Header() {
   const [open, setOpen] = useState(false)
+  const closeTimeoutRef = useRef(null)
+
+  /*let closeTimeout*/
+
+const handleMouseEnter = () => {
+  if (closeTimeoutRef.current) {
+    clearTimeout(closeTimeoutRef.current)
+  }
+  setOpen(true)
+}
+
+
+const handleMouseLeave = () => {
+  closeTimeoutRef.current = setTimeout(() => {
+    setOpen(false)
+  }, 340)
+}
+
 
   return (
     <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
@@ -308,8 +326,10 @@ function Header() {
           {/* ESQUERDA */}
           <Nav className="me-auto position-relative">
              <div className='categorias-wrapper'
-                  onMouseEnter={() => setOpen(true)}
-                  onMouseLeave={() => setOpen(false)}
+                  /*onMouseEnter={() => setOpen(true)}
+                  onMouseLeave={() => setOpen(false)}*/
+                  onMouseEnter={handleMouseEnter}
+                  onMouseLeave={handleMouseLeave}
              >
 
              
@@ -328,6 +348,8 @@ function Header() {
                 className="mega-menu"
                 /*onMouseEnter={() => setOpen(true)}
                 onMouseLeave={() => setOpen(false)}*/
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               >
                 <div className="mega-menu-content">
                   <Row>

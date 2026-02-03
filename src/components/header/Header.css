@@ -144,8 +144,9 @@
   /*top: 100%;*/
   /*left: 0;*/
   /*left: 56px;*/
+  left: 50%;
   /*right: 0;*/
-  /*transform: translate(-50%);*/
+  transform: translateX(-50%);
   /*width: 100vw;*/
   width: 100%;
   background: #243441;

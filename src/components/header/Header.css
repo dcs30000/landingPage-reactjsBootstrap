@@ -1,13 +1,13 @@
 /*Mega-menu*/
-.mega-menu{
+/*.mega-menu{
   position: static;
 }
-.mega-menu .dropdown-menu {
+.mega-menu .dropdown-menu {*/
   /*width: 100vw;*/
-  position: absolute;
+  /*position: absolute;
   width: 100%;  
   /*min-width: 100%;*/
-  left: 0;
+  /*left: 0;
   right: 0;
   margin-top: 0;
   border-radius: 0;
@@ -21,22 +21,22 @@
 }
 
 /*Conteudo interno*/
-.mega-menu-content{
+/*.mega-menu-content{
   /*max-width: 1200px;*/
-  max-width: 1050px;
+  /*max-width: 1050px;
   margin: 0 auto;
   /*padding: 2rem 1rem;*/
-  padding: 1.5rem 1rem;
+  /*padding: 1.5rem 1rem;
 }
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 /*Titulos*/
-.mega-menu h6{
+/*.mega-menu h6{
   color: #fff;
   margin-bottom: 1rem;
 }
 
 /*Links*/
-.mega-menu .dropdown-item{
+/*.mega-menu .dropdown-item{
   color: #ccc;
   padding: 0.25rem 0;
 }
@@ -47,24 +47,24 @@
 }
 
 /* Busca */
-.header-search input {
+/*.header-search input {
   min-width: 250px;
 }
 
 /* Ícones */
-.header-icons a {
+/*.header-icons a {
   color: white;
 }
 
 /*Hover no desktop*/
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   .mega-menu:hover .dropdown-menu {
     display: block;
   }
 }
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 /* Botão Categorias */
-.categorias-title {
+/*.categorias-title {
   display: flex;
   align-items: center;
   gap: 6px;
@@ -72,17 +72,64 @@
 }
 
 /* Seta */
-.dropdown-arrow {
+/*.dropdown-arrow {
   font-size: 0.75rem;
   opacity: 0.8;
 }
 
 /* Remove seta padrão do Bootstrap */
-#categorias-dropdown::after {
+/*#categorias-dropdown::after {
   display: none;
 }
 
 
 .navbar{
+  overflow: visible;
+}*/
+
+
+
+
+.mega-menu {
+  position: static;
+}
+
+.mega-menu .dropdown-menu {
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 100%;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  background: #353c42;
+}
+
+.mega-menu-content {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+.mega-menu h6 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.mega-menu .dropdown-item {
+  color: #ccc;
+}
+
+.mega-menu .dropdown-item:hover {
+  background: none;
+  color: #fff;
+  text-decoration: underline;
+}
+
+#categorias-dropdown::after {
+  display: none;
+}
+
+.navbar {
   overflow: visible;
 }

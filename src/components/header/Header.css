@@ -1,8 +1,12 @@
 /*Mega-menu*/
+.mega-menu{
+  position: static;
+}
 .mega-menu .dropdown-menu {
   /*width: 100vw;*/
-  width: 100%;
-  min-width: 100%;
+  position: absolute;
+  width: 100%;  
+  /*min-width: 100%;*/
   left: 0;
   right: 0;
   margin-top: 0;
@@ -74,3 +78,7 @@
   display: none;
 }
 
+
+.navbar{
+  overflow: visible;
+}

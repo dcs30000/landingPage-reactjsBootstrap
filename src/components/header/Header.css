@@ -134,7 +134,9 @@
   overflow: visible;
 }
 */
-
+.categorias-wrapper{
+  position: relative;
+}
 
 .mega-menu {
   /*position: absolute;*/

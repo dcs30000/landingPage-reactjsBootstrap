@@ -176,7 +176,11 @@ function Header() {
 
           {/* MENU ESQUERDA */}
           <Nav className="me-auto">
-
+            <div className='mega-menu-wrapper' 
+                 onMouseEnter={() => setShowCategorias(true)}
+                 onMouseLeave={() => setShowCategorias(false)}
+            ></div>
+            
             {/* BOTÃO CATEGORIAS */}
             <NavDropdown
               /*title={
@@ -190,8 +194,8 @@ function Header() {
               id="categorias-dropdown"
                 menuVariant="dark"
                 show={showCategorias}
-                onMouseEnter={() => setShowCategorias(true)}
-                onMouseLeave={() => setShowCategorias(false)}
+                /*onMouseEnter={() => setShowCategorias(true)}
+                onMouseLeave={() => setShowCategorias(false)}*/
                 title={
                   <span className="categorias-title">
                     ☰ Categorias <span className="dropdown-arrow">▾</span>

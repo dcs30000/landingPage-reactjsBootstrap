@@ -179,8 +179,8 @@ function Header() {
             <div className='mega-menu-wrapper' 
                  onMouseEnter={() => setShowCategorias(true)}
                  onMouseLeave={() => setShowCategorias(false)}
-            ></div>
-            
+            >
+
             {/* BOTÃO CATEGORIAS */}
             <NavDropdown
               /*title={
@@ -229,11 +229,11 @@ function Header() {
                     <NavDropdown.Item>TVs</NavDropdown.Item>
                     <NavDropdown.Item>Games</NavDropdown.Item>
                   </Col>
-
                 </Row>
-              {/*</Container>*/}
-            </div>
-            </NavDropdown>
+                {/*</Container>*/}
+               </div>
+              </NavDropdown>
+             </div>
             </Nav>
 
             {/*PAGINAS FIXAS NO MENU*/}

@@ -2,7 +2,7 @@ import { Container } from 'react-bootstrap'
 import { Routes, Route } from 'react-router-dom'
 
 
-import Home from '../../pages/Home'
+import Home from '../../pages/Home/Home'
 import Casa from '../../pages/Casa'
 import Beleza from '../../pages/Beleza'
 import Eletronicos from '../../pages/Eletronicos'

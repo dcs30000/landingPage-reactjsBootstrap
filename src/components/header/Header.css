@@ -16,6 +16,10 @@
   background-color: #353c42;
 }
 
+.mega-menu-wrapper{
+  position: relative;
+}
+
 /*Conteudo interno*/
 .mega-menu-content{
   /*max-width: 1200px;*/

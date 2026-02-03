@@ -20,6 +20,7 @@ function Main() {
            <Route path='/casa' element={<Casa />}></Route>
            <Route path='/beleza' element={<Beleza />}></Route>
            <Route path='/eletronicos' element={<Eletronicos />}></Route>
+           <Route path='/ofertas' element={<Ofertas />}></Route>
            <Route path='/sobre' element={<Sobre />}></Route>
            <Route path='/contato' element={<Contato />}></Route> 
         </Routes>        

@@ -137,22 +137,26 @@
 
 
 .mega-menu {
-  position: absolute;
+  /*position: absolute;*/
+  position: fixed;
   top: 100%;
-  left: 0;
+  /*left: 0;*/
+  left: 56px;
   /*right: 0;*/
-  /*transform: translate(-50%);*/
-  width: 100vw;
+  transform: translate(-50%);
+  /*width: 100vw;*/
+  width: 100%;
   background: #243441;
-  z-index: 1000;
+  /*z-index: 1000;*/
+  z-index: 1050;
   max-width: 1200px;
   border-radius: 0 0 6px 6px;
 }
 
 .mega-menu-content {
-  max-width: 1050px;
-  margin: auto;
-  padding: 1rem 1rem;
+  /*max-width: 1050px;*/
+  /*margin: auto;*/
+  padding: 1rem 2rem;
 }
 
 .mega-menu h6 {
@@ -172,6 +176,6 @@
   text-decoration: underline;
 }
 
-.categorias-title {
+/*.categorias-title {
   cursor: pointer;
-}
+}*/

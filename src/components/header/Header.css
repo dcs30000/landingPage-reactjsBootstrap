@@ -1,20 +1,24 @@
 /*Mega-menu*/
 .mega-menu .dropdown-menu {
-  width: 100vw;
+  /*width: 100vw;*/
+  width: 100%;
+  min-width: 100%;
   left: 0;
   right: 0;
   margin-top: 0;
   border-radius: 0;
   top: 100%;
   padding: 0;
-  background-color: #212529;
+  background-color: #353c42;
 }
 
 /*Conteudo interno*/
 .mega-menu-content{
-  max-width: 1200px;
+  /*max-width: 1200px;*/
+  max-width: 1050px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  /*padding: 2rem 1rem;*/
+  padding: 1.5rem 1rem;
 }
 
 /*Titulos*/

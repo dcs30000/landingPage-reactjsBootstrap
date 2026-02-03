@@ -140,15 +140,19 @@
   position: absolute;
   top: 100%;
   left: 0;
+  right: 0;
+  /*transform: translate(-50%);*/
   width: 100vw;
   background: #353c42;
   z-index: 1000;
+  max-width: 1200px;
+  border-radius: 0 0 6px 6px;
 }
 
 .mega-menu-content {
   max-width: 1050px;
   margin: auto;
-  padding: 1.5rem 1rem;
+  padding: 1rem 1rem;
 }
 
 .mega-menu h6 {

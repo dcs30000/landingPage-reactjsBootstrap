@@ -307,12 +307,17 @@ function Header() {
 
           {/* ESQUERDA */}
           <Nav className="me-auto position-relative">
+             <div className='categorias-wrapper'
+                  onMouseEnter={() => setOpen(true)}
+                  onMouseLeave={() => setOpen(false)}
+             >
 
+             
             {/* BOTÃO CATEGORIAS */}
             <Nav.Link
               className="categorias-title"
-              onMouseEnter={() => setOpen(true)}
-              onMouseLeave={() => setOpen(false)}
+              /*onMouseEnter={() => setOpen(true)}
+              onMouseLeave={() => setOpen(false)}*/
             >
               ☰ Categorias ▾
             </Nav.Link>
@@ -321,8 +326,8 @@ function Header() {
             {open && (
               <div
                 className="mega-menu"
-                onMouseEnter={() => setOpen(true)}
-                onMouseLeave={() => setOpen(false)}
+                /*onMouseEnter={() => setOpen(true)}
+                onMouseLeave={() => setOpen(false)}*/
               >
                 <div className="mega-menu-content">
                   <Row>
@@ -350,6 +355,7 @@ function Header() {
                 </div>
               </div>
             )}
+           </div> 
           </Nav>
 
           {/* CENTRO */}

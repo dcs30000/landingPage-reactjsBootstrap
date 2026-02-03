@@ -151,13 +151,13 @@ export default Header
 
 */}
 
-import { Navbar, Nav, Container, Form, FormControl, Button, NavDropdown, Row, Col } from 'react-bootstrap'
+/*import { Navbar, Nav, Container, Form, FormControl, Button, NavDropdown, Row, Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { BsCart3, BsPerson, BsList } from 'react-icons/bs'
 /*Importando a conf. do Mega-menu*/
-import './Header.css'
+/*import './Header.css'
 /*Efeito passar o mouse no mega-menu*/
-import { useState, } from 'react'
+/*import { useState, } from 'react'
 
 
 function Header() {
@@ -176,11 +176,11 @@ function Header() {
     }, 200) // delay anti-piscar
   }*/
 
-  return (
+  /*return (
     <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
       <Container fluid>
-        {/* Logo */}
-        <Navbar.Brand as={Link} to="/" className="fw-bold">
+        {/* Logo FALTA ASTERISCO E BARRA}
+        /*<Navbar.Brand as={Link} to="/" className="fw-bold">
           Incolar
         </Navbar.Brand>
 
@@ -188,15 +188,15 @@ function Header() {
 
         <Navbar.Collapse id="menu-principal">
 
-          {/* MENU ESQUERDA */}
-          <Nav className="me-auto">
+          {/* MENU ESQUERDA FALTA ASTERISCO E BARRA/}
+          /*<Nav className="me-auto">
             <div className='mega-menu-wrapper' 
                  onMouseEnter={() => setShowCategorias(true)}
                  onMouseLeave={() => setShowCategorias(false)}
             >
 
-            {/* BOTÃO CATEGORIAS */}
-            <NavDropdown
+            {/* BOTÃO CATEGORIAS FALTA ASTERISCO E BARRA/}
+            /*<NavDropdown
               /*title={
                 <span className="d-flex align-items-center gap-2"> 
                   <BsList size={22} /> Categorias  
@@ -204,7 +204,7 @@ function Header() {
               }*/
 
               /*id="mega-menu"*/
-              className="mega-menu"
+              /*className="mega-menu"
               id="categorias-dropdown"
                 menuVariant="dark"
                 show={showCategorias}
@@ -212,15 +212,15 @@ function Header() {
                 onMouseLeave={() => setShowCategorias(false)}
                 /*onMouseEnter={openMenu}
                 onMouseLeave={closeMenu}*/
-                title={
+                /*title={
                   <span className="categorias-title">
                     ☰ Categorias <span className="dropdown-arrow">▾</span>
                   </span>
              }
             >
             <div className='mega-menu-content'>
-              {/*<Container>*/}
-                <Row className="py-3">
+              {/*<Container>FALTA ASTERISCO E BARRA/}
+                /*<Row className="py-3">
 
                   <Col md={4}>
                     <h6 className="fw-bold">Beleza</h6>
@@ -246,14 +246,14 @@ function Header() {
                     <NavDropdown.Item>Games</NavDropdown.Item>
                   </Col>
                 </Row>
-                {/*</Container>*/}
-               </div>
+                {/*</Container>FALTA ASTERISCO E BARRA/}
+               /*</div>
               </NavDropdown>
              </div>
             </Nav>
 
-            {/*PAGINAS FIXAS NO MENU*/}
-            <Nav className="mx-auto gap-4">
+            {/*PAGINAS FIXAS NO MENUFALTA ASTERISCO E BARRA/}
+            /*<Nav className="mx-auto gap-4">
               <Nav.Link as={Link} to="/contato">Contato</Nav.Link>
               <Nav.Link as={Link} to="/sobre">Sobre</Nav.Link>
               <Nav.Link as={Link} to="/novidades">Novidades</Nav.Link>
@@ -263,14 +263,14 @@ function Header() {
 
           
 
-          {/* BUSCA */}
-          <Form className="d-flex me-3">
+          {/* BUSCA FALTA ASTERISCO E BARRA/}
+          /*<Form className="d-flex me-3">
             <FormControl type="search" placeholder="Buscar produto" className="me-2" />
             <Button variant="outline-light">Buscar</Button>
           </Form>
 
-          {/* ÍCONES */}
-          <Nav>
+          {/* ÍCONES FALTA ASTERISCO E BARRA/}
+          /*<Nav>
             <Nav.Link as={Link} to="/login">
               <BsPerson size={20} />
             </Nav.Link>
@@ -284,6 +284,101 @@ function Header() {
     </Navbar>
   )
 }
+*/
+
+import {  Navbar, Nav, Container, Form, FormControl, Button, Row, Col } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
+import { BsCart3, BsPerson } from 'react-icons/bs'
+import { useState } from 'react'
+import './Header.css'
+
+function Header() {
+  const [open, setOpen] = useState(false)
+
+  return (
+    <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+      <Container fluid>
+        <Navbar.Brand as={Link} to="/" className="fw-bold">
+          Incolar
+        </Navbar.Brand>
+
+        <Navbar.Toggle />
+        <Navbar.Collapse>
+
+          {/* ESQUERDA */}
+          <Nav className="me-auto position-relative">
+
+            {/* BOTÃO CATEGORIAS */}
+            <Nav.Link
+              className="categorias-title"
+              onMouseEnter={() => setOpen(true)}
+              onMouseLeave={() => setOpen(false)}
+            >
+              ☰ Categorias ▾
+            </Nav.Link>
+
+            {/* MEGA MENU */}
+            {open && (
+              <div
+                className="mega-menu"
+                onMouseEnter={() => setOpen(true)}
+                onMouseLeave={() => setOpen(false)}
+              >
+                <div className="mega-menu-content">
+                  <Row>
+                    <Col md={4}>
+                      <h6>Beleza</h6>
+                      <Link className="dropdown-item" to="/beleza">Perfumes</Link>
+                      <Link className="dropdown-item" to="/beleza">Skincare</Link>
+                      <Link className="dropdown-item" to="/beleza">Cabelos</Link>
+                    </Col>
+
+                    <Col md={4}>
+                      <h6>Casa</h6>
+                      <Link className="dropdown-item" to="/casa">Móveis</Link>
+                      <Link className="dropdown-item" to="/casa">Decoração</Link>
+                      <Link className="dropdown-item" to="/casa">Cozinha</Link>
+                    </Col>
+
+                    <Col md={4}>
+                      <h6>Eletrônicos</h6>
+                      <Link className="dropdown-item" to="/eletronicos">Celulares</Link>
+                      <Link className="dropdown-item" to="/eletronicos">TVs</Link>
+                      <Link className="dropdown-item" to="/eletronicos">Games</Link>
+                    </Col>
+                  </Row>
+                </div>
+              </div>
+            )}
+          </Nav>
+
+          {/* CENTRO */}
+          <Nav className="mx-auto gap-4">
+            <Nav.Link as={Link} to="/novidades">Novidades</Nav.Link>
+            <Nav.Link as={Link} to="/ofertas">Ofertas</Nav.Link>
+            <Nav.Link as={Link} to="/mais-vendidos">Mais vendidos</Nav.Link>
+          </Nav>
+
+          {/* BUSCA */}
+          <Form className="d-flex me-3">
+            <FormControl placeholder="Buscar produto" />
+            <Button variant="outline-light">Buscar</Button>
+          </Form>
+
+          {/* ÍCONES */}
+          <Nav>
+            <Nav.Link as={Link} to="/login"><BsPerson /></Nav.Link>
+            <Nav.Link as={Link} to="/carrinho"><BsCart3 /></Nav.Link>
+          </Nav>
+
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  )
+}
 
 export default Header
+
+
+
 

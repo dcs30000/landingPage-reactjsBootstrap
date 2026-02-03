@@ -231,7 +231,7 @@ function Header() {
             </div>
             </NavDropdown>
             {/*PAGINAS FIXAS NO MENU*/}
-            <Nav className='align-items-center gap-3 me-3'>
+            <Nav className="mx-auto align-items-center gap-4">
               <Nav.Link as={Link} to="/contato">Contato</Nav.Link>
               <Nav.Link as={Link} to="/sobre">Sobre</Nav.Link>
               <Nav.Link as={Link} to="/novidades">Novidades</Nav.Link>

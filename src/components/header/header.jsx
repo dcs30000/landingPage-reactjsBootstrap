@@ -157,11 +157,25 @@ import { BsCart3, BsPerson, BsList } from 'react-icons/bs'
 /*Importando a conf. do Mega-menu*/
 import './Header.css'
 /*Efeito passar o mouse no mega-menu*/
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 
 
 function Header() {
   const [showCategorias, setShowCategorias ] = useState(false) /*efeito do mouse no mega-menu*/
+
+  const closeTimeout = useRef(null)
+
+  const openMenu = () => {
+    clearTimeout(closeTimeout.current)
+    setShowCategorias(true)
+  }
+
+  const closeMenu = () => {
+    closeTimeout.current = setTimeout(() => {
+      setShowCategorias(false)
+    }, 200) // delay anti-piscar
+  }
+
   return (
     <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
       <Container fluid>
@@ -196,6 +210,8 @@ function Header() {
                 show={showCategorias}
                 /*onMouseEnter={() => setShowCategorias(true)}
                 onMouseLeave={() => setShowCategorias(false)}*/
+                onMouseEnter={openMenu}
+                onMouseLeave={closeMenu}
                 title={
                   <span className="categorias-title">
                     ☰ Categorias <span className="dropdown-arrow">▾</span>

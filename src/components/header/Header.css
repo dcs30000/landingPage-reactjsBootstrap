@@ -141,11 +141,11 @@
 .mega-menu {
   /*position: absolute;*/
   position: fixed;
-  top: 100%;
+  /*top: 100%;*/
   /*left: 0;*/
-  left: 56px;
+  /*left: 56px;*/
   /*right: 0;*/
-  transform: translate(-50%);
+  /*transform: translate(-50%);*/
   /*width: 100vw;*/
   width: 100%;
   background: #243441;

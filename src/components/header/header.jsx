@@ -230,8 +230,10 @@ function Header() {
               {/*</Container>*/}
             </div>
             </NavDropdown>
+            </Nav>
+
             {/*PAGINAS FIXAS NO MENU*/}
-            <Nav className="mx-auto align-items-center gap-4">
+            <Nav className="mx-auto gap-4">
               <Nav.Link as={Link} to="/contato">Contato</Nav.Link>
               <Nav.Link as={Link} to="/sobre">Sobre</Nav.Link>
               <Nav.Link as={Link} to="/novidades">Novidades</Nav.Link>
@@ -239,7 +241,7 @@ function Header() {
               <Nav.Link as={Link} to="/mais-vendidos">Mais vendidos</Nav.Link>
             </Nav>
 
-          </Nav>
+          
 
           {/* BUSCA */}
           <Form className="d-flex me-3">

@@ -87,9 +87,9 @@
   overflow: visible;
 }*/
 
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
-
-
+/*
 .mega-menu {
   position: static;
 }
@@ -132,4 +132,42 @@
 
 .navbar {
   overflow: visible;
+}
+*/
+
+
+.mega-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100vw;
+  background: #353c42;
+  z-index: 1000;
+}
+
+.mega-menu-content {
+  max-width: 1050px;
+  margin: auto;
+  padding: 1.5rem 1rem;
+}
+
+.mega-menu h6 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.mega-menu .dropdown-item {
+  display: block;
+  color: #ccc;
+  padding: 4px 0;
+  text-decoration: none;
+}
+
+.mega-menu .dropdown-item:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.categorias-title {
+  cursor: pointer;
 }

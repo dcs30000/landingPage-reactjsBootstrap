@@ -110,6 +110,10 @@
   }
 }
 
+  .ver-todas{
+    align-self: flex-start;
+  }
+
 /* RESPONSIVO - MOBILE */
 @media (max-width: 576px) {
   .hero {

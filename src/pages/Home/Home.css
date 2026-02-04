@@ -37,3 +37,58 @@
   transform: translateY(-4px);
   transition: 0.3s ease;
 }
+
+
+/* OFERTAS */
+.ofertas-section {
+  background: #fff5f5;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.section-header h2 {
+  margin: 0;
+}
+
+.ver-todas {
+  text-decoration: none;
+  font-weight: 500;
+  color: #dc3545;
+}
+
+.ver-todas:hover {
+  text-decoration: underline;
+}
+
+/* Card de oferta */
+.oferta-card {
+  border: 1px solid #f1c0c0;
+  transition: transform 0.3s ease;
+}
+
+.oferta-card:hover {
+  transform: translateY(-5px);
+}
+
+.precos {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.preco-antigo {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.preco-novo {
+  color: #dc3545;
+  font-size: 1.2rem;
+  font-weight: bold;
+}

@@ -1,4 +1,4 @@
-import { Container, Row, Col, Card, Button } from 'react-bootstrap'
+import { Container, Row, Col, Card, Button, Carousel } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 {/* Importando o CSS */}
@@ -7,6 +7,35 @@ import './Home.css'
 function Home() {
   return (
     <>
+      {/* HERO / CAROUSEL */}
+      <section className="home-hero">
+        <Carousel>
+          <Carousel.Item>
+            <div className="hero-slide hero-slide-1">
+              <Container>
+                <h1>Bem-vindo à Incolar</h1>
+                <p>Os melhores produtos para sua casa e tecnologia</p>
+                <Button as={Link} to="/ofertas" variant="dark">
+                  Ver Ofertas
+                </Button>
+              </Container>
+            </div>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <div className="hero-slide hero-slide-2">
+              <Container>
+                <h1>Novidades da Semana</h1>
+                <p>Lançamentos selecionados para você</p>
+                <Button as={Link} to="/novidades" variant="dark">
+                  Conferir
+                </Button>
+              </Container>
+            </div>
+          </Carousel.Item>
+        </Carousel>
+      </section>
+      
       {/* HERO / BANNER */}
       <section className="bg-light py-5">
         <Container>
@@ -72,6 +101,29 @@ function Home() {
         </Container>
       </section>
 
+      {/* CATEGORIAS 2 */}
+      <section className="py-5">
+        <Container>
+          <h2 className="mb-4">Categorias</h2>
+
+          <Row className="g-4">
+            {['Eletrônicos', 'Casa', 'Beleza'].map((cat) => (
+              <Col md={4} key={cat}>
+                <Card className="h-100 category-card">
+                  <Card.Body>
+                    <Card.Title>{cat}</Card.Title>
+                    <Card.Text>
+                      Explore produtos da categoria {cat}.
+                    </Card.Text>
+                    <Button variant="outline-dark">Acessar</Button>
+                  </Card.Body>
+                </Card>
+              </Col>
+            ))}
+          </Row>
+        </Container>
+      </section>
+
       {/* PRODUTOS EM DESTAQUE */}
       <section className="bg-light py-5">
         <Container>
@@ -120,6 +172,28 @@ function Home() {
           </Row>
         </Container>
       </section>
+
+       {/* PRODUTOS EM DESTAQUE 2 */}
+      <section className="bg-light py-5">
+        <Container>
+          <h2 className="mb-4">Produtos em destaque</h2>
+
+          <Row className="g-4">
+            {[1, 2, 3, 4, 5].map((item) => (
+              <Col md={3} key={item}>
+                <Card className="product-card h-100">
+                  <Card.Body>
+                    <Card.Title>Produto {item}</Card.Title>
+                    <Card.Text>Descrição breve do produto.</Card.Text>
+                    <Button variant="dark">Comprar</Button>
+                  </Card.Body>
+                </Card>
+              </Col>
+            ))}
+          </Row>
+        </Container>
+      </section>
+
     </>
   )
 }

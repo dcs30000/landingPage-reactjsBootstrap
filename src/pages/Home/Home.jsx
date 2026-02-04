@@ -194,6 +194,40 @@ function Home() {
         </Container>
       </section>
 
+      {/* OFERTAS */}
+      <section className="ofertas-section py-5">
+          <Container>
+            <div className="section-header">
+              <h2>Ofertas imperdíveis</h2>
+              <Link to="/ofertas" className="ver-todas">
+                Ver todas →
+              </Link>
+            </div>
+
+            <Row className="g-4">
+              {[1, 2, 3, 4, 5].map((item) => (
+                <Col md={3} key={item}>
+                  <Card className="oferta-card h-100">
+                    <Card.Body>
+                      <Card.Title>Produto {item}</Card.Title>
+
+                      <div className="precos">
+                        <span className="preco-antigo">R$ 299,90</span>
+                        <span className="preco-novo">R$ 199,90</span>
+                      </div>
+
+                      <Button variant="danger" className="w-100 mt-3">
+                        Comprar
+                      </Button>
+                    </Card.Body>
+                  </Card>
+                </Col>
+              ))}
+            </Row>
+          </Container>
+      </section>
+
+
     </>
   )
 }

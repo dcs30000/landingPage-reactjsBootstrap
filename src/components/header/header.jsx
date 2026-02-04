@@ -150,7 +150,7 @@ function Header() {
 export default Header
 
 */}
-
+{/*
 /*import { Navbar, Nav, Container, Form, FormControl, Button, NavDropdown, Row, Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { BsCart3, BsPerson, BsList } from 'react-icons/bs'
@@ -285,7 +285,7 @@ function Header() {
   )
 }
 */
-
+}
 import {  Navbar, Nav, Container, Form, FormControl, Button, Row, Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { BsCart3, BsPerson } from 'react-icons/bs'

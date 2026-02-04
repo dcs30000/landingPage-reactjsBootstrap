@@ -48,7 +48,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2rem;
+  /*margin-bottom: 2rem;*/
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .section-header h2 {

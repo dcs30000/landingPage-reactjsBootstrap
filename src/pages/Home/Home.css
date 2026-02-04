@@ -1,0 +1,39 @@
+/* HERO */
+.home-hero {
+  margin-top: -1px;
+}
+
+.hero-slide {
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.hero-slide h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.hero-slide p {
+  max-width: 500px;
+  margin-bottom: 1.5rem;
+}
+
+/* Slides */
+.hero-slide-1 {
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+              url('/banner1.jpg') center/cover no-repeat;
+}
+
+.hero-slide-2 {
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+              url('/banner2.jpg') center/cover no-repeat;
+}
+
+/* Cards */
+.category-card:hover,
+.product-card:hover {
+  transform: translateY(-4px);
+  transition: 0.3s ease;
+}

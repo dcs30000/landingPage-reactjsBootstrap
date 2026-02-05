@@ -388,7 +388,7 @@ const handleMouseLeave = () => {
           </Nav>
 
           {/* BUSCA */}
-          <Form className="d-flex me-3">
+          <Form className="d-flex me-3 header-search">
             <FormControl placeholder="Buscar produto" />
             <Button variant="outline-light">Buscar</Button>
           </Form>

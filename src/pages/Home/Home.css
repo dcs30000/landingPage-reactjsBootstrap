@@ -137,4 +137,5 @@
   line-height: 1.3;
   min-height: 2.6em; /* força altura igual */
   overflow: hidden;
+  word-break: break-word;
 }

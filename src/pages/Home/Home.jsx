@@ -33,6 +33,18 @@ function Home() {
               </Container>
             </div>
           </Carousel.Item>
+
+          <Carousel.Item>
+             <div className="hero-slide hero-slide-3">
+              <Container>
+                <h1>Novidades da Semana</h1>
+                <p>Lançamentos selecionados para você</p>
+                <Button as={Link} to="/novidades" variant="dark">
+                  Conferir
+                </Button>
+              </Container>
+            </div>
+          </Carousel.Item>
         </Carousel>
       </section>
       

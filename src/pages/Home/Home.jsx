@@ -180,7 +180,7 @@ function Home() {
 
           <Row className="g-4">
             {[1, 2, 3, 4, 5].map((item) => (
-              <Col md={3} key={item}>
+              <Col xs={12} sm={6} lg={3} key={item}>
                 <Card className="product-card h-100">
                   <Card.Body>
                     <Card.Title>Produto {item}</Card.Title>
@@ -206,7 +206,7 @@ function Home() {
 
             <Row className="g-4">
               {[1, 2, 3, 4, 5].map((item) => (
-                <Col md={3} key={item}>
+                <Col xs={12} sm={6} lg={3} key={item}>
                   <Card className="oferta-card h-100">
                     <Card.Body>
                       <Card.Title>Produto {item}</Card.Title>

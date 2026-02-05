@@ -140,7 +140,7 @@ function Home() {
               </Card>
             </Col>
 
-            <Col md={3}>
+            <Col xs={12} sm={6} lg={3}>
               <Card>
                 <Card.Body>
                   <Card.Title>Produto 2</Card.Title>
@@ -150,7 +150,7 @@ function Home() {
               </Card>
             </Col>
 
-            <Col md={3}>
+            <Col xs={12} sm={6} lg={3}>
               <Card>
                 <Card.Body>
                   <Card.Title>Produto 3</Card.Title>
@@ -160,7 +160,7 @@ function Home() {
               </Card>
             </Col>
 
-            <Col md={3}>
+            <Col xs={12} sm={6} lg={3}>
               <Card>
                 <Card.Body>
                   <Card.Title>Produto 4</Card.Title>

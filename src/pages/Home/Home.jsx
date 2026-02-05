@@ -130,7 +130,7 @@ function Home() {
           <h2 className="mb-4">Produtos em destaque</h2>
 
           <Row className="g-4">
-            <Col md={3}>
+            <Col xs={12} sm={6} lg={3}>
               <Card>
                 <Card.Body>
                   <Card.Title>Produto 1</Card.Title>

@@ -31,6 +31,25 @@
               url('/public/banner2.png') center/cover no-repeat;
 }
 
+/* Ajusta posição do texto do carousel */
+.carousel-caption {
+  bottom: 20%;
+  z-index: 10;
+}
+
+/* Afasta as setas do texto */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+/* Opcional: melhora área de clique das setas */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 100%, 100%;
+}
+
+
 /* Cards */
 .category-card:hover,
 .product-card:hover {

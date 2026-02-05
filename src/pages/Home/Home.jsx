@@ -13,8 +13,8 @@ function Home() {
           <Carousel.Item>
             <div className="hero-slide hero-slide-1">
               <Container>
-                <h1>Bem-vindo à Incolar</h1>
-                <p>Os melhores produtos para sua casa e tecnologia</p>
+                {/*<h1>Bem-vindo à Incolar</h1>
+                <p>Os melhores produtos para sua casa e tecnologia</p>*/}
                 <Button as={Link} to="/ofertas" variant="dark">
                   Ver Ofertas
                 </Button>
@@ -25,8 +25,8 @@ function Home() {
           <Carousel.Item>
             <div className="hero-slide hero-slide-2">
               <Container>
-                <h1>Novidades da Semana</h1>
-                <p>Lançamentos selecionados para você</p>
+                {/*<h1>Novidades da Semana</h1>
+                <p>Lançamentos selecionados para você</p>*/}
                 <Button as={Link} to="/novidades" variant="dark">
                   Conferir
                 </Button>
@@ -37,8 +37,8 @@ function Home() {
           <Carousel.Item>
              <div className="hero-slide hero-slide-3">
               <Container>
-                <h1>Novidades da Semana</h1>
-                <p>Lançamentos selecionados para você</p>
+                {/*<h1>Novidades da Semana</h1>
+                <p>Lançamentos selecionados para você</p>*/}
                 <Button as={Link} to="/novidades" variant="dark">
                   Conferir
                 </Button>

@@ -179,6 +179,10 @@
   text-decoration: underline;
 }
 
+.header-search input{
+  margin-right: 4px;
+}
+
 .categorias-title {
   cursor: pointer;
 }

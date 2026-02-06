@@ -1,6 +1,7 @@
 /* HERO */
 .home-hero {
   margin-top: -1px;
+  border: 1px solid blue;
 }
 
 .hero-slide {

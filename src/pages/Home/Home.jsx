@@ -46,6 +46,21 @@ function Home() {
             </div>
           </Carousel.Item>
         </Carousel>*/}
+
+        <Carousel controls indicators>
+          <Carousel.Item>
+            <div className="hero-slide hero-slide-1" />
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <div className="hero-slide hero-slide-2" />
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <div className="hero-slide hero-slide-3" />
+          </Carousel.Item>
+        </Carousel>
+        
       </section>
       
       {/* HERO / BANNER */}

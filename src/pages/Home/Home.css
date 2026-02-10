@@ -9,6 +9,7 @@
   display: flex;
   align-items: center;
   background-size: cover;
+  background-position: center;
   /*color: #d14444;*/
   /*height: 60vh;*/
   /*text-align: center;*/

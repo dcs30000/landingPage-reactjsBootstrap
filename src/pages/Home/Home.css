@@ -157,11 +157,17 @@
   .hero h1 {
     font-size: 2rem;
   }
-}
+/*}*/
 
   .ver-todas{
     align-self: flex-start;
+}
+
+  .hero-slide{
+    height: 45vh;
   }
+}
+
 
 /* RESPONSIVO - MOBILE */
 @media (max-width: 576px) {

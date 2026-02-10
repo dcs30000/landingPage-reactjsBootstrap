@@ -5,10 +5,11 @@
 }
 
 .hero-slide {
-  min-height: 420px;
+  min-height: 320px;
   display: flex;
   align-items: center;
   color: #d14444;
+  /*height: 60vh;*/
   /*text-align: center;*/
   
 }

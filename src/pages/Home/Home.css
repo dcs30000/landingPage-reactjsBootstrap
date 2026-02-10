@@ -183,6 +183,11 @@
   .hero p {
     font-size: 1rem;
   }
+
+  .hero-slide{
+    height: 35vh;
+    
+  }
 }
 
 

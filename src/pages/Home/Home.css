@@ -8,6 +8,7 @@
   min-height: 320px;
   display: flex;
   align-items: center;
+  background-size: cover;
   /*color: #d14444;*/
   /*height: 60vh;*/
   /*text-align: center;*/

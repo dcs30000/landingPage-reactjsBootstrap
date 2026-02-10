@@ -3,7 +3,7 @@
   margin-top: -45px;
   border: 1px solid blue;
 }
-/*TEXTO NOS SLIDES DO CAROUSEL*/
+
 .hero-slide {
   min-height: 420px;
   display: flex;
@@ -12,6 +12,7 @@
   /*text-align: center;*/
   
 }
+/*TEXTO NOS SLIDES DO CAROUSEL*/
 /*
 .hero-slide h1 {
   font-size: 2.5rem;
@@ -64,10 +65,18 @@
   background-size: 100%, 100%;
 }
 
+/*HOME-BANNER*/
 .home-banner{
   border: 1px solid red;
-  margin-top: 20px;
+  margin-top: 10px;
 }
+
+/*HOME-CATEGORIAS*/
+.home-categorias{
+  border: 1px solid green;
+  margin-top: 10px;
+}
+
 /* Cards */
 .category-card:hover,
 .product-card:hover {

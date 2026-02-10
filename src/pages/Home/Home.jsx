@@ -63,7 +63,7 @@ function Home() {
       </section>
 
       {/* CATEGORIAS */}
-      <section className="py-5">
+      <section className="py-5 home-categorias">
         <Container>
           <h2 className="mb-4">Categorias</h2>
 

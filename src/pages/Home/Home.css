@@ -187,8 +187,8 @@
   }
 
   .hero-slide{
-    height: 35vh;
-    background-position: top;
+    height: 0vh;
+    /*background-position: top;*/
   }
 }
 

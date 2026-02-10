@@ -6,6 +6,14 @@
   overflow: hidden;
 }
 
+/* Carousel precisa herdar altura */
+.home-hero .carousel,
+.home-hero .carousel-inner,
+.home-hero .carousel-item {
+  height: 100%;
+}
+
+/*SLIDE*/
 .hero-slide {
   min-height: 410px;
   display: flex;

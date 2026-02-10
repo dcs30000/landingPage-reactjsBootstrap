@@ -9,7 +9,7 @@ function Home() {
     <>
       {/* HERO / CAROUSEL */}
       <section className="home-hero">
-        <Carousel>
+        {/*}<Carousel>   
           <Carousel.Item>
             <div className="hero-slide hero-slide-1">
               <Container>
@@ -17,7 +17,7 @@ function Home() {
                 <p>Os melhores produtos para sua casa e tecnologia</p>
                 <Button as={Link} to="/ofertas" variant="dark">
                   Ver Ofertas
-                </Button>*/}
+                </Button>/}
               </Container>
             </div>
           </Carousel.Item>
@@ -29,7 +29,7 @@ function Home() {
                 <p>Lançamentos selecionados para você</p>
                 <Button as={Link} to="/novidades" variant="dark">
                   Conferir
-                </Button>*/}
+                </Button>/}
               </Container>
             </div>
           </Carousel.Item>
@@ -41,11 +41,11 @@ function Home() {
                 <p>Lançamentos selecionados para você</p>
                 <Button as={Link} to="/novidades" variant="dark">
                   Conferir
-                </Button>*/}
+                </Button>/}
               </Container>
             </div>
           </Carousel.Item>
-        </Carousel>
+        </Carousel>*/}
       </section>
       
       {/* HERO / BANNER */}

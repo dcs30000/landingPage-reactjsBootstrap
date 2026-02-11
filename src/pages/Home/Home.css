@@ -202,6 +202,14 @@
   }
 }
 
+@media (max-width: 768px) {
+  .hero-slide {
+    min-height: 50vh;
+    background-position: center;
+  }
+}
+
+
 
 /* RESPONSIVO - MOBILE */
 @media (max-width: 576px) {
@@ -219,8 +227,9 @@
   }
 
   .hero-slide{
-    height: 32vh;
-    min-height: 240px;
+    /*height: 32vh;*/
+    /*min-height: 240px;*/
+    min-height: 45vh;
     /*background-position: top;*/
     background-position: top center;
   }

@@ -15,7 +15,7 @@ import Contato from '../../pages/Contato'
 function Main() {
   return (
     <main>
-      {/*<Container className="py-5">*/}
+      <Container className="py-5">
         <Routes>
            <Route path='/' element={<Home />}></Route>
            <Route path='/casa' element={<Casa />}></Route>
@@ -26,7 +26,7 @@ function Main() {
            <Route path='/sobre' element={<Sobre />}></Route>
            <Route path='/contato' element={<Contato />}></Route> 
         </Routes>        
-      {/*</Container>*/}
+      </Container>
     </main>
   )
 }

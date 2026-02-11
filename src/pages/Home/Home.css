@@ -15,7 +15,8 @@
 
 /*SLIDE*/
 .hero-slide {
-  min-height: 410px;
+  /*min-height: 410px;*/
+  min-height: 60vh; /*altura proporcional*/
   
   display: flex;
   align-items: center;

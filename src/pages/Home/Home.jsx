@@ -80,7 +80,7 @@ function Home() {
       {/* CATEGORIAS */}
       <section className="py-5 home-categorias">
         <Container>
-          <h2 className="mb-4">Categorias</h2>
+          <h2 className="mb-4">Categorias 1</h2>
 
           <Row className="g-4">
             <Col md={4}>
@@ -131,7 +131,7 @@ function Home() {
       {/* CATEGORIAS 2 */}
       <section className="py-5">
         <Container>
-          <h2 className="mb-4">Categorias</h2>
+          <h2 className="mb-4">Categorias 2</h2>
 
           <Row className="g-4">
             {['Eletrônicos', 'Casa', 'Beleza'].map((cat) => (

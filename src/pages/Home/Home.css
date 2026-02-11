@@ -30,18 +30,20 @@
   /*text-align: center;*/
   
 }
+
 /*TEXTO NOS SLIDES DO CAROUSEL*/
-/*
+
 .hero-slide h1 {
   font-size: 2.5rem;
   font-weight: bold;
-  /*text-align: center;/
+  text-align: center;
+  border: 1px solid green
 }
 
 .hero-slide p {
   max-width: 500px;
   margin-bottom: 1.5rem;
-  /*text-align: center;/
+  text-align: center;
 }
 
 /*.hero-slide-1 button {

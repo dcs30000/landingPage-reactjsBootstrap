@@ -24,7 +24,7 @@ function Home() {
 
           <Carousel.Item>
             <div className="hero-slide hero-slide-2">
-              <Container>
+              <Container className='hero-content'>
                 <h1>Novidades da Semana</h1>
                 <p>Lançamentos selecionados para você</p>
                 <Button as={Link} to="/novidades" variant="dark">
@@ -36,7 +36,7 @@ function Home() {
 
           <Carousel.Item>
              <div className="hero-slide hero-slide-3">
-              <Container>
+              <Container className='hero-content'>
                 <h1>Novidades da Semana</h1>
                 <p>Lançamentos selecionados para você</p>
                 <Button as={Link} to="/novidades" variant="dark">

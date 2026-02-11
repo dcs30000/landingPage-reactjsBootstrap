@@ -18,7 +18,9 @@
   min-height: 410px;
   display: flex;
   align-items: center;
+  justify-content: center;
   background-size: cover;
+    
   /*background-size: contain;*/
   background-position: center;
   background-repeat: no-repeat;

@@ -51,9 +51,9 @@
   text-align: center;
   border: 1px solid orangered;
 }
-
-.hero-slide Button {
-  text-align: center;
+/*BOTAO DO SLIDE DO CAROUSEL*/
+.hero-slide .btn {
+  margin-top: 0.5rem;
 }
 
 /* Slides */

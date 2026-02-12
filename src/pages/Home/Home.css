@@ -211,7 +211,8 @@
 
 @media (max-width: 768px) {
   .hero-slide {
-    min-height: 50vh;
+    /*min-height: 50vh;*/
+    aspect-ratio: 16/9;
     background-position: center;
   }
 }

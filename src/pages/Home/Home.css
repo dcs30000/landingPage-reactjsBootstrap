@@ -4,6 +4,7 @@
   border: 1px solid blue;
   width: 100%;
   overflow: hidden;
+  margin: 0;
 }
 
 /* Carousel precisa herdar altura */

@@ -55,6 +55,7 @@
   /*margin-bottom: 1.5rem;*/
   text-align: center;
   border: 1px solid orangered;
+  
 }
 /*BOTAO DO SLIDE DO CAROUSEL*/
 .hero-slide .btn {
@@ -78,6 +79,7 @@
   font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
+  color: #dc3545;
 }
 
 .hero-slide-2 {

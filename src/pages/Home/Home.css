@@ -43,12 +43,12 @@
 
 /*TEXTO NOS SLIDES DO CAROUSEL*/
 
-.hero-slide h1 {
+/*.hero-slide h1 {
   /*font-size: 2.5rem;*/
   /*font-weight: bold;*/
   /*text-align: center;*/
-  /*border: 1px solid green*/
-}
+  /*border: 1px solid green/
+}*/
 
 .hero-slide p {
   /*max-width: 500px;*/
@@ -57,6 +57,7 @@
   border: 1px solid orangered;
   
 }
+
 /*BOTAO DO SLIDE DO CAROUSEL*/
 .hero-slide .btn {
   margin-top: 0.5rem;

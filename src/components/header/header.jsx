@@ -291,7 +291,7 @@ import { Link } from 'react-router-dom'
 import { BsCart3, BsPerson } from 'react-icons/bs'
 import { useState , useRef} from 'react'
 import './Header.css'
-
+/*<Navbar bg="dark" variant="dark" expand="lg" sticky="top">*/
 function Header() {
   const [open, setOpen] = useState(false)
   const closeTimeoutRef = useRef(null)
@@ -314,7 +314,7 @@ const handleMouseLeave = () => {
 
 
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+    <Navbar bg="dark" variant="dark" expand="lg" className='main-navbar'>    
       <Container fluid>
         <Navbar.Brand as={Link} to="/" className="fw-bold">
           Incolar

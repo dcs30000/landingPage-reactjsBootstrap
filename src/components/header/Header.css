@@ -186,3 +186,7 @@
 .categorias-title {
   cursor: pointer;
 }
+
+.navbar{
+  margin-bottom: 0 !important;
+}

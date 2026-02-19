@@ -190,3 +190,11 @@
 /*.navbar{
   margin-bottom: 0 !important;
 }*/
+
+.main-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+  margin-bottom: 0;
+}
+

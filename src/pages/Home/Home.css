@@ -39,8 +39,8 @@
   justify-content: center;
   text-align: center;
   
-  background-size: cover;
-  /*background-size: contain;  /*Para não cortar a img do carousel*/
+  /*background-size: cover;*/
+  background-size: contain;  /*Para não cortar a img do carousel*/
   background-position: center;
   background-repeat: no-repeat;
 

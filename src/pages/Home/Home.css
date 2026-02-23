@@ -107,7 +107,7 @@
 .hero-slide-3 {
   /*background: url('/banner6.jpg') center/cover no-repeat;*/
   /*background: url('/banner6.jpg') center/cover no-repeat;*/
-   background-image: url('/banner6.jpg') center/cover no-repeat;
+   background-image: url('/banner6.jpg');
 }
 
 /* Ajusta posição do texto do carousel */

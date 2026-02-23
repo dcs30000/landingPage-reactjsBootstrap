@@ -9,60 +9,61 @@ function Home() {
     <>
       {/* HERO / CAROUSEL */}
       <section className="home-hero">
-        <Carousel>   
-          <Carousel.Item>
-            <div className="hero-slide hero-slide-1">
-              <Container className='hero-content'> {/* para centralizar melhor */}
-                <h1>Bem-vindo à Incolar</h1>
-                <p>Os melhores produtos para sua casa e tecnologia</p>
-                <Button as={Link} to="/ofertas" variant="dark">
-                  Ver Ofertas
-                </Button>
-              </Container>
-            </div>
-          </Carousel.Item>
+        <Container fluid="xxl" className='px-0'>
+          <Carousel>   
+            <Carousel.Item>
+              <div className="hero-slide hero-slide-1">
+                <Container className='hero-content'> {/* para centralizar melhor */}
+                  <h1>Bem-vindo à Incolar</h1>
+                  <p>Os melhores produtos para sua casa e tecnologia</p>
+                  <Button as={Link} to="/ofertas" variant="dark">
+                    Ver Ofertas
+                  </Button>
+                </Container>
+              </div>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <div className="hero-slide hero-slide-2">
-              <Container className='hero-content'>
-                <h1>Novidades da Semana</h1>
-                <p>Lançamentos selecionados para você</p>
-                <Button as={Link} to="/novidades" variant="dark">
-                  Conferir
-                </Button>
-              </Container>
-            </div>
-          </Carousel.Item>
+            <Carousel.Item>
+              <div className="hero-slide hero-slide-2">
+                <Container className='hero-content'>
+                  <h1>Novidades da Semana</h1>
+                  <p>Lançamentos selecionados para você</p>
+                  <Button as={Link} to="/novidades" variant="dark">
+                    Conferir
+                  </Button>
+                </Container>
+              </div>
+            </Carousel.Item>
 
-          <Carousel.Item>
-             <div className="hero-slide hero-slide-3">
-              <Container className='hero-content'>
-                <h1>Novidades da Semana</h1>
-                <p>Lançamentos selecionados para você</p>
-                <Button as={Link} to="/novidades" variant="dark">
-                  Conferir
-                </Button>
-              </Container>
-            </div>
-          </Carousel.Item>
-        </Carousel>
+            <Carousel.Item>
+              <div className="hero-slide hero-slide-3">
+                <Container className='hero-content'>
+                  <h1>Novidades da Semana</h1>
+                  <p>Lançamentos selecionados para você</p>
+                  <Button as={Link} to="/novidades" variant="dark">
+                    Conferir
+                  </Button>
+                </Container>
+              </div>
+            </Carousel.Item>
+          </Carousel>
 
-        {/*RETIRANDO ESSE CAROUSEL */}
-        
-        {/*<Carousel controls indicators>
-          <Carousel.Item>
-            <div className="hero-slide hero-slide-1" />
-          </Carousel.Item>
+          {/*RETIRANDO ESSE CAROUSEL */}
+          
+          {/*<Carousel controls indicators>
+            <Carousel.Item>
+              <div className="hero-slide hero-slide-1" />
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <div className="hero-slide hero-slide-2" />
-          </Carousel.Item>
+            <Carousel.Item>
+              <div className="hero-slide hero-slide-2" />
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <div className="hero-slide hero-slide-3" />
-          </Carousel.Item>
-        </Carousel>*/}
-        
+            <Carousel.Item>
+              <div className="hero-slide hero-slide-3" />
+            </Carousel.Item>
+          </Carousel>*/}
+        </Container>
       </section>
       
       {/* HERO / BANNER */}

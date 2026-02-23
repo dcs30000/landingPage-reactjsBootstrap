@@ -29,7 +29,7 @@
   /*min-height: 60vh; /*altura proporcional*/
   /*min-height: clamp(400px, 60vh, 700px);*/
 
-  aspect-ratio: 16/7;  /*controla proporção do banner*/
+  aspect-ratio: 16/9;  /*controla proporção do banner*/
 
   display: flex;
   align-items: center;

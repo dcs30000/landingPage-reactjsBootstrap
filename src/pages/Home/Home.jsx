@@ -14,8 +14,8 @@ function Home() {
             <Carousel.Item>
               <div className="hero-slide hero-slide-1">
                 <Container className='hero-content'> {/* para centralizar melhor */}
-                  <h1>Bem-vindo à Incolar</h1>
-                  <p>Os melhores produtos para sua casa e tecnologia</p>
+                  {/*<h1>Bem-vindo à Incolar</h1>*/}
+                  {/*<p>Os melhores produtos para sua casa e tecnologia</p>*/}
                   <Button as={Link} to="/ofertas" variant="dark">
                     Ver Ofertas
                   </Button>

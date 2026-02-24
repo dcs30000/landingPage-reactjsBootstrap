@@ -84,7 +84,7 @@
   /*background: linear-gradient(rgba(209, 208, 208, 0.5), rgba(233, 228, 228, 0.5)),
               url('/public/banner1.png') center/cover no-repeat;*/
   /*background: url('/banner4.jpg') center/cover no-repeat;*/
-    background-image: url('/banner4.jpg');          
+    background-image: url('/Banner9.png');          
 }
 
 .hero-slide-1 h1{
@@ -110,7 +110,7 @@
 .hero-slide-3 {
   /*background: url('/banner6.jpg') center/cover no-repeat;*/
   /*background: url('/banner6.jpg') center/cover no-repeat;*/
-   background-image: url('/Banner9.png');
+   background-image: url('/public/banner4.jpg');
 }
 
 /* Ajusta posição do texto do carousel */

@@ -104,13 +104,13 @@
   /*background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
               url('/public/banner2.png') center/cover no-repeat;*/
   /*background: url('/banner5.jpg') center/cover no-repeat;*/
-  background-image: url('/banner5.jpg') ;            
+  background-image: url('/Banner7.png') ;            
 }
 
 .hero-slide-3 {
   /*background: url('/banner6.jpg') center/cover no-repeat;*/
   /*background: url('/banner6.jpg') center/cover no-repeat;*/
-   background-image: url('/public/banner4.jpg');
+   background-image: url('/banner4.jpg');
 }
 
 /* Ajusta posição do texto do carousel */

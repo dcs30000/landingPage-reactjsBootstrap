@@ -13,7 +13,7 @@ function Home() {
           <Carousel>   
             <Carousel.Item>
               <img className='hero-image' src="/banner1.png" alt="Banner1" />
-              <div className='hero-content'>
+              <div className='hero-content2'>
 
               </div>
               {/*<div className="hero-slide hero-slide-1">*/}

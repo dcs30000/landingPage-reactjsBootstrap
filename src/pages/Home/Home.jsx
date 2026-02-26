@@ -41,7 +41,8 @@ function Home() {
             </Carousel.Item>
 
             <Carousel.Item>
-              <div className="hero-slide hero-slide-3">
+              <img className='hero-image' src="/banner3.phn" alt="Banner3" />
+              {/*<div className="hero-slide hero-slide-3">
                 <Container className='hero-content'>
                   <h1>Novidades da Semana</h1>
                   <p>Lançamentos selecionados para você</p>
@@ -49,7 +50,7 @@ function Home() {
                     Conferir
                   </Button>
                 </Container>
-              </div>
+              </div>*/}
             </Carousel.Item>
           </Carousel> 
         </Container>

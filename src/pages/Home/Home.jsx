@@ -14,9 +14,7 @@ function Home() {
             <Carousel.Item>
               <img className='hero-image' src="/banner1.png" alt="Banner1" />
               <div className='hero-content'>
-                <Button as={Link} to="/ofertas" variant="dark">
-                    Ver Ofertas
-                </Button>
+
               </div>
               {/*<div className="hero-slide hero-slide-1">*/}
                 {/*<Container className='hero-content'> {/* para centralizar melhor */}

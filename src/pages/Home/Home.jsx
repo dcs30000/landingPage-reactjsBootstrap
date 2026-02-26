@@ -12,15 +12,15 @@ function Home() {
         <Container fluid="xxl" className='px-0'>
           <Carousel>   
             <Carousel.Item>
-              <div className="hero-slide hero-slide-1">
-                <Container className='hero-content'> {/* para centralizar melhor */}
+              {/*<div className="hero-slide hero-slide-1">*/}
+                {/*<Container className='hero-content'> {/* para centralizar melhor */}
                   {/*<h1>Bem-vindo à Incolar</h1>*/}
                   {/*<p>Os melhores produtos para sua casa e tecnologia</p>*/}
-                  <Button as={Link} to="/ofertas" variant="dark">
+                  {/*<Button as={Link} to="/ofertas" variant="dark">
                     Ver Ofertas
                   </Button>
                 </Container>
-              </div>
+              {/*</d*/}
             </Carousel.Item>
 
             <Carousel.Item>
@@ -46,23 +46,7 @@ function Home() {
                 </Container>
               </div>
             </Carousel.Item>
-          </Carousel>
-
-          {/*RETIRANDO ESSE CAROUSEL */}
-          
-          {/*<Carousel controls indicators>
-            <Carousel.Item>
-              <div className="hero-slide hero-slide-1" />
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <div className="hero-slide hero-slide-2" />
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <div className="hero-slide hero-slide-3" />
-            </Carousel.Item>
-          </Carousel>*/}
+          </Carousel> 
         </Container>
       </section>
       

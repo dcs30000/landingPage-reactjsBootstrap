@@ -10,8 +10,7 @@
 
 /* Carousel precisa herdar altura */
 .home-hero .carousel,
-.home-hero .carousel-inner,
-.home-hero  { /*RETIRANDO .carousel-item DAQUI e COLOCANDO SOZINHO*/
+.home-hero .carousel-inner{ /*RETIRANDO .home-hero .carousel-item DAQUI e COLOCANDO SOZINHO*/
   height: 100%;
 }
 

@@ -46,19 +46,19 @@ function Home() {
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className='hero-image' src="/banner4.png" alt="Banner4" />
+             <a href=""> <img className='hero-image' src="/banner4.png" alt="Banner4" /> </a>
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className='hero-image' src="/banner5.png" alt="Banner4" />
+             <a href=""> <img className='hero-image' src="/banner5.png" alt="Banner4" /> </a>
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className='hero-image' src="/banner6.png" alt="Banner4" />
+             <a href=""> <img className='hero-image' src="/banner6.png" alt="Banner4" /> </a>
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className='hero-image' src="/banner7.png" alt="Banner4" />
+             <a href=""> <img className='hero-image' src="/banner7.png" alt="Banner4" /> </a>
             </Carousel.Item>
 
           </Carousel> 

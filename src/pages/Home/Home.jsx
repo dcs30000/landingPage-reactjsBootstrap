@@ -42,7 +42,7 @@ function Home() {
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className='hero-image' src="/banner3.png" alt="Banner3" />
+             <a href=""> <img className='hero-image' src="/banner3.png" alt="Banner3" /> </a>
             </Carousel.Item>
 
             <Carousel.Item>

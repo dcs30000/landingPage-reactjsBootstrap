@@ -16,6 +16,7 @@
 
 .hero-image{
   width: 100%;
+  height: auto;
 }
 /*.home-hero .carousel-item{
   height: 60vh;

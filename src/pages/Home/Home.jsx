@@ -65,6 +65,10 @@ function Home() {
               <img className='hero-image' src="/banner6.png" alt="Banner4" />
             </Carousel.Item>
 
+            <Carousel.Item>
+              <img className='hero-image' src="/banner7.png" alt="Banner4" />
+            </Carousel.Item>
+
           </Carousel> 
         </Container>
       </section>

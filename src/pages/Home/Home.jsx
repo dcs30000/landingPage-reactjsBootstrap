@@ -16,6 +16,7 @@ function Home() {
               <div className='hero-content2'>
 
               </div>
+              {/*PRIMEIRA MANEIRA QUE FIZ O CAROUSEL*/}
               {/*<div className="hero-slide hero-slide-1">*/}
                 {/*<Container className='hero-content'> {/* para centralizar melhor */}
                   {/*<h1>Bem-vindo à Incolar</h1>*/}
@@ -42,15 +43,6 @@ function Home() {
 
             <Carousel.Item>
               <img className='hero-image' src="/banner3.png" alt="Banner3" />
-              {/*<div className="hero-slide hero-slide-3">
-                <Container className='hero-content'>
-                  <h1>Novidades da Semana</h1>
-                  <p>Lançamentos selecionados para você</p>
-                  <Button as={Link} to="/novidades" variant="dark">
-                    Conferir
-                  </Button>
-                </Container>
-              </div>*/}
             </Carousel.Item>
 
             <Carousel.Item>

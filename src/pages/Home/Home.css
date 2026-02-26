@@ -240,6 +240,7 @@
   }
 }
 
+/* RESPONSIVO - MOBILE */
 @media (max-width: 768px) {
   .hero-slide {
     /*min-height: 50vh;*/

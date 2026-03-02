@@ -314,7 +314,11 @@ const handleMouseLeave = () => {
 
 
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" sticky="top">    
+    
+    <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+     <div className="top-bar">
+        Frete grátis para Salvador acima de R$199 🚚
+     </div>    
       <Container fluid>
         <Navbar.Brand as={Link} to="/" className="fw-bold">
           Incolar

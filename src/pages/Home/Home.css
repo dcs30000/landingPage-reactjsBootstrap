@@ -23,6 +23,21 @@
 .carousel-item{
   position: relative;
 }
+
+/* Indicadores como bolinhas */
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  opacity: 1;
+}
+
+/* Indicador ativo */
+.carousel-indicators .active {
+  background-color: #000;
+}
+
 /*.home-hero .carousel-item{
   height: 60vh;
   min-height: 360px;

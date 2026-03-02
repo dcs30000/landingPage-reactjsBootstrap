@@ -296,4 +296,8 @@
     /*background-position: top;*/
     background-position: top center;
   }
+
+  .carousel-indicators{
+    bottom: -18px;
+  }
 }

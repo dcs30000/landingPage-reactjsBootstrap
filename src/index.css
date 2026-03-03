@@ -31,7 +31,7 @@ body {
   background: linear-gradient(
     180deg,
     #111111 0%, /*preto intenso no topo*/
-    #1f1f1f 5%, /*cinza escuro*/
+    #1f1f1f 0%, /*cinza escuro*/
     #2e2e2e 10%, /*cinza medio*/
     #e9e9e9 100% /*cinza claro*/
   );

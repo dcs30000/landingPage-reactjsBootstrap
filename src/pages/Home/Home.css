@@ -6,7 +6,14 @@
   overflow: hidden;
   /*margin-top: 0 !important;*/
   /*padding-top: 0 !important;*/
-  margin-top: 5px;
+  margin-top: 0.5px;
+  background: linear-gradient(
+    180deg,
+    #0f1720 0%, /*topo escuro*/
+    #1f2937 40%, /*cinza escuro*/
+    #334155 70%, /*cinza medio*/
+    #f1f5f9 100% /*quase branco no final*/
+  );
 }
 
 /* Carousel precisa herdar altura */

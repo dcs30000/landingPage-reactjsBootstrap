@@ -6,8 +6,8 @@
   overflow: hidden;
   /*margin-top: 0 !important;*/
   /*padding-top: 0 !important;*/
-  margin-top: 0.5px;
-  /*padding-top: 5px;*/
+  /*margin-top: 0.5px;*/
+  padding-top: 5px;
   background: linear-gradient( /*degradê*/
     180deg,
     #0f1720 0%, /*topo escuro*/

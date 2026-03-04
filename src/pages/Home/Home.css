@@ -1,13 +1,13 @@
 /* HERO */
 .home-hero {
   /*margin-top: -45px;*/
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   width: 100%;
   overflow: hidden;
   /*margin-top: 0 !important;*/
   /*padding-top: 0 !important;*/
   margin-top: 0.5px;
-  background: linear-gradient(
+  background: linear-gradient( /*degradê*/
     180deg,
     #0f1720 0%, /*topo escuro*/
     #1f2937 40%, /*cinza escuro*/

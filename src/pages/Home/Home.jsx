@@ -66,7 +66,7 @@ function Home() {
       </section>
       
       {/* HERO / BANNER */}
-      <section className="bg-light py-5 home-banner">
+      <section className="bg-light home-banner"> {/*RETIRANDO py-5 DA SECTION <section className="bg-light py-5 home-banner">*/}
         <Container>
           <h1 className="fw-bold mb-3">Bem-vindo à Incolar</h1>
           <p className="text-muted mb-4">

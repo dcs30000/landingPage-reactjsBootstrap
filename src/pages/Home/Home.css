@@ -167,7 +167,7 @@
 .home-banner{
   border: 1px solid red;
   margin-top: 10px;
-  
+  background-image: url(/banner20.png);
 }
 
 /*HOME-CATEGORIAS*/

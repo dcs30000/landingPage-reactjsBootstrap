@@ -193,6 +193,11 @@
   align-items: center;
 }
 
+.banner-text{
+  max-width: 420px;
+}
+
+
 /*HOME-CATEGORIAS*/
 .home-categorias{
   border: 1px solid green;

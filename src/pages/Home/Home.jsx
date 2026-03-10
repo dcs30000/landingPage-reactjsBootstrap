@@ -66,7 +66,7 @@ function Home() {
       </section>
       
       {/* HERO / BANNER */}
-      <section className="bg-light py-5 home-banner"> {/*RETIRANDO py-5 DA SECTION <section className="bg-light py-5 home-banner">*/}
+      <section className="bg-light py-0 home-banner"> {/*RETIRANDO py-5 DA SECTION <section className="bg-light py-5 home-banner">*/}
         <Container>
          <div className="banner-content">*  {/*RETIREI <div className="banner-content">*/} 
           <div className='banner-text'>

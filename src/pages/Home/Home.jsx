@@ -69,6 +69,7 @@ function Home() {
       <section className="bg-light py-5 home-banner"> {/*RETIRANDO py-5 DA SECTION <section className="bg-light py-5 home-banner">*/}
         <Container>
          <div className="banner-content">*  {/*RETIREI <div className="banner-content">*/} 
+          <div className='banner-text'>
             <h1 className="fw-bold mb-3">Bem-vindo à Incolar</h1>
             <p className="text-muted mb-4">
               Encontre produtos para sua casa, tecnologia, beleza e muito mais.
@@ -77,6 +78,7 @@ function Home() {
             <Button as={Link} to="/eletronicos" variant="dark">
               Ver Eletrônicos
             </Button>
+          </div>  
          </div> 
         </Container>
       </section>

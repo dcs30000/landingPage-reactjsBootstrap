@@ -167,8 +167,8 @@
 .home-banner{
   border: 1px solid red;
   margin-top: 10px;
-  /*background-image: url(/banner20.png);*/
-  background: #40ac49;
+  background-image: url(/banner11.png);
+  /*background: #40ac49;*/
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

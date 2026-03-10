@@ -189,7 +189,7 @@
 
   display: flex;
   min-height: 260px;
-  border: 1px solid rgb(194, 25, 25);
+  /*border: 1px solid rgb(194, 25, 25);*/
   align-items: center;
 }
 

@@ -308,6 +308,23 @@
     /*aspect-ratio: 4/55;*/
     background-position: center;
   }
+
+  .banner-content{
+    background-position: center;
+    background-size: contain;
+    min-height: 320px;
+
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .banner-text{
+    max-width: 100%;
+  }
+  
 }
 
 

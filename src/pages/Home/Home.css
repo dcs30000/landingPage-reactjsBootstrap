@@ -165,7 +165,7 @@
 
 /*HOME-BANNER*/
 .home-banner{
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   margin-top: 10px;
   /*background-image: url(/banner11.png);*/  /*APARECE A IMAGEM*/
   /*background: #40ac49;*/
@@ -324,7 +324,7 @@
   .banner-text{
     max-width: 100%;
   }
-  
+
 }
 
 

@@ -167,7 +167,18 @@
 .home-banner{
   border: 1px solid red;
   margin-top: 10px;
-  background-image: url(/banner20.png);
+  /*background-image: url(/banner20.png);*/
+}
+
+.banner-content{
+  background-image: url('/banner20.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 10px;
+
+  padding: 60px;
 }
 
 /*HOME-CATEGORIAS*/

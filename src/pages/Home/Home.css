@@ -191,6 +191,8 @@
   min-height: 260px;
   /*border: 1px solid rgb(194, 25, 25);*/
   align-items: center;
+
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
 .banner-text{

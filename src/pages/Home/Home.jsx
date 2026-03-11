@@ -70,7 +70,7 @@ function Home() {
         <Container>
          <div className="banner-content">*  {/*RETIREI <div className="banner-content">*/} 
           <div className='banner-text'>
-            <h1 className="fw-bold mb-3">Bem-vindo à Incolar</h1>
+            <h1 className="fw-bold mb-3">Obtenha produtos de qualidade pelos menores preços</h1>
             <p className="text-muted mb-4">
               Preparamos descontos especiais para vocês em produtos de supermercados.
               Não percam essas oportunidades...

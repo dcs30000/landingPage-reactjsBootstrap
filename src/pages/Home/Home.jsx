@@ -72,11 +72,12 @@ function Home() {
           <div className='banner-text'>
             <h1 className="fw-bold mb-3">Bem-vindo à Incolar</h1>
             <p className="text-muted mb-4">
-              Encontre produtos para sua casa, tecnologia, beleza e muito mais.
+              Preparamos descontos especiais para vocês em produtos de supermercados.
+              Não percam essas oportunidades...
             </p>
 
             <Button as={Link} to="/eletronicos" variant="dark">
-              Ver Eletrônicos
+              Comprar agora
             </Button>
           </div>  
          </div> 

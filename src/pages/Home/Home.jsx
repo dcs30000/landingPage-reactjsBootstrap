@@ -76,6 +76,10 @@ function Home() {
               Não percam essas oportunidades...
             </p>
 
+            <p className='texto-mobile'>
+              Não perca essa oportunidade 
+            </p>
+
             <Button as={Link} to="/eletronicos" variant="dark">
               Comprar agora
             </Button>

@@ -360,6 +360,10 @@
     display: none;
   }
 
+  .texto-mobile{
+    display: block;
+  }
+
 }
 
 

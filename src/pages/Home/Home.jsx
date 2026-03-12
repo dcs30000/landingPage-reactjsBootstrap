@@ -71,13 +71,13 @@ function Home() {
          <div className="banner-content">*  {/*RETIREI <div className="banner-content">*/} 
           <div className='banner-text'>
             <h2 className="fw-bold mb-3">Obtenha produtos de qualidade pelos menores preços</h2>
-            <p className="text-muted mb-4">
+            <p className="text-muted mb-4 texto-desktop">
               Preparamos descontos especiais para vocês em produtos de supermercados.
               Não percam essas oportunidades...
             </p>
 
             <p className='texto-mobile'>
-              Não perca essa oportunidade 
+              Não perca essa oportunidade... 
             </p>
 
             <Button as={Link} to="/eletronicos" variant="dark">

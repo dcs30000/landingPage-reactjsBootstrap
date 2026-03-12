@@ -214,6 +214,12 @@
   border: 1px solid red;
 }
 
+.cartao-imagem{
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
 /* Cards */
 .category-card:hover,
 .product-card:hover {

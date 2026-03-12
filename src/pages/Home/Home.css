@@ -312,8 +312,8 @@
   }
 
   .banner-content{
-    background-position: center;
-    background-size: contain;
+    background-position: center right;  /*background-position: center;*/
+    background-size: cover;  /*background-size: contain*/
     min-height: 320px;
 
     padding: 20px;

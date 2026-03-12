@@ -210,6 +210,10 @@
   margin-top: 10px;
 }
 
+.cartao-categoria{
+  border: 1px solid red;
+}
+
 /* Cards */
 .category-card:hover,
 .product-card:hover {

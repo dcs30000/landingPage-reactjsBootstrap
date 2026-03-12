@@ -95,7 +95,7 @@ function Home() {
 
           <Row className="g-4">
             <Col md={4}>
-              <Card className="h-100">
+              <Card className="h-100 cartao-categoria">
                 <Card.Img src="/produtosMaga.png" alt="Card image" />
                 <Card.Body>
                   <Card.Title>Eletrônicos</Card.Title>

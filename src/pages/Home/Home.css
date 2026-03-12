@@ -199,6 +199,10 @@
   max-width: 420px;
 }
 
+.texto-mobile{
+  display: none;
+}
+
 
 /*HOME-CATEGORIAS*/
 .home-categorias{

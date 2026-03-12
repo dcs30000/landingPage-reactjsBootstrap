@@ -356,7 +356,9 @@
     color: rgb(18, 204, 133);
   }
 
-
+  .texto-desktop{
+    display: none;
+  }
 
 }
 

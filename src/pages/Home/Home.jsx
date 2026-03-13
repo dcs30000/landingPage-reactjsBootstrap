@@ -110,7 +110,7 @@ function Home() {
             </Col>
 
             <Col md={4}>
-              <Card className="h-100">
+              <Card className="h-100 cartao-categoria2">
                 <Card.Body>
                   <Card.Title>Casa</Card.Title>
                   <Card.Text>

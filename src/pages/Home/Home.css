@@ -212,7 +212,8 @@
 
 .cartao-categoria{
   border: 1px solid red;
-  background-color: blueviolet;
+  /*background-color: blueviolet;*/
+  background-image: url(/public/produtosMaga.png);
 }
 
 .cartao-imagem{

@@ -112,17 +112,19 @@ function Home() {
             </Col>
 
             <Col md={4}>
+            <a href="">
               <Card className="h-100 cartao-categoria2">
                 <Card.Body>
-                  <Card.Title>Casa</Card.Title>
+                  {/*<Card.Title>Casa</Card.Title>
                   <Card.Text>
                     Tudo para seu lar.
                   </Card.Text>
                   <Button as={Link} to="/casa" variant="outline-dark">
                     Acessar
-                  </Button>
+                  </Button>*/}
                 </Card.Body>
               </Card>
+            </a>  
             </Col>
 
             <Col md={4}>

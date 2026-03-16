@@ -216,6 +216,11 @@
   background-image: url(/produtosMaga.png);
 }
 
+.cartao-categoria .Button{
+  margin-top: 20px;
+  padding-top: 30px;
+}
+
 .cartao-categoria2{
   background-image: url(/mensagemMaga.png);
 }

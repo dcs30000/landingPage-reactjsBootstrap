@@ -95,6 +95,7 @@ function Home() {
 
           <Row className="g-4">
             <Col md={4}>
+            <a href="">
               <Card className="h-100 cartao-categoria">
                 {/*<Card.Img variant='top' src="/produtosMaga.png" alt="Card image" className='cartao-imagem'/>*/}
                 <Card.Body>
@@ -105,8 +106,9 @@ function Home() {
                   <Button as={Link} to="/eletronicos" variant="outline-dark">
                     Acessar
                   </Button>
-                </Card.Body>
+                </Card.Body>                
               </Card>
+            </a>
             </Col>
 
             <Col md={4}>

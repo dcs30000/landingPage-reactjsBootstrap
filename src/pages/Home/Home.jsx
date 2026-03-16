@@ -103,9 +103,9 @@ function Home() {
                   {/*<Card.Text>
                     {/*Tecnologia, gadgets e acessórios.*/}
                   {/*</Card.Text>*/}
-                  <Button as={Link} to="/eletronicos" variant="outline-dark">
+                  {/*<Button as={Link} to="/eletronicos" variant="outline-dark">
                     Acessar
-                  </Button>
+                  </Button>*/}
                 </Card.Body>                
               </Card>
             </a>

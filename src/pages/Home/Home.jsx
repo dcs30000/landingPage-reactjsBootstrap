@@ -99,9 +99,9 @@ function Home() {
                 {/*<Card.Img variant='top' src="/produtosMaga.png" alt="Card image" className='cartao-imagem'/>*/}
                 <Card.Body>
                   {/*<Card.Title>Eletrônicos</Card.Title>*/}
-                  <Card.Text>
-                    Tecnologia, gadgets e acessórios.
-                  </Card.Text>
+                  {/*<Card.Text>
+                    {/*Tecnologia, gadgets e acessórios.*/}
+                  {/*</Card.Text>*/}
                   <Button as={Link} to="/eletronicos" variant="outline-dark">
                     Acessar
                   </Button>

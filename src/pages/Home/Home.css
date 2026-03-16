@@ -213,11 +213,15 @@
 .cartao-categoria{
   border: 1px solid red;
   /*background-color: blueviolet;*/
-  background-image: url(/public/produtosMaga.png);
+  background-image: url(/produtosMaga.png);
 }
 
 .cartao-categoria2{
-  background-image: url(/public/mensagemMaga.png);
+  background-image: url(/mensagemMaga.png);
+}
+
+.cartao-categoria3{
+  background-image: url(/cartaoMaga.png);
 }
 
 .cartao-imagem{

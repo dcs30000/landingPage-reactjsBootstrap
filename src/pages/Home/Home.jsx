@@ -89,9 +89,9 @@ function Home() {
       </section>
 
       {/* CATEGORIAS */}
-      <section className="py-5 home-categorias">
+      <section className="py-0 home-categorias">
         <Container>
-          <h2 className="mb-4">Categorias 1</h2>
+          {/*<h2 className="mb-4">Categorias 1</h2>*/}
 
           <Row className="g-4">
             <Col md={4}>

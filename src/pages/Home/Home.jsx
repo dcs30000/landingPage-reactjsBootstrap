@@ -98,7 +98,7 @@ function Home() {
               <Card className="h-100 cartao-categoria">
                 {/*<Card.Img variant='top' src="/produtosMaga.png" alt="Card image" className='cartao-imagem'/>*/}
                 <Card.Body>
-                  <Card.Title>Eletrônicos</Card.Title>
+                  {/*<Card.Title>Eletrônicos</Card.Title>*/}
                   <Card.Text>
                     Tecnologia, gadgets e acessórios.
                   </Card.Text>

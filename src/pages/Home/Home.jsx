@@ -169,6 +169,33 @@ function Home() {
         </Container>
       </section>*/}
 
+      <section className="home-vitrine py-4">
+        <Container>
+          <h4 className="mb-3">Mais vendidos</h4>
+
+          <div className="vitrine-scroll">
+            {[1,2,3,4,5,6].map((item) => (
+              <Card className="product-card" key={item}>
+                <Card.Body>
+                  <img src="/produto.png" alt="produto" className="product-img" />
+
+                  <h6 className="mt-2">
+                    Produto exemplo {item}
+                  </h6>
+
+                  <strong className="price">R$ 59,90</strong>
+
+                  <div className="rating">
+                    ⭐⭐⭐⭐⭐
+                  </div>
+                </Card.Body>
+              </Card>
+            ))}
+          </div>
+        </Container>
+      </section>
+
+
       {/* PRODUTOS EM DESTAQUE */}
       <section className="bg-light py-5">
         <Container>

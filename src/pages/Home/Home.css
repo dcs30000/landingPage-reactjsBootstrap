@@ -214,16 +214,40 @@
   border: 1px solid red;
   /*background-color: blueviolet;*/
   background-image: url(/produtosMaga.png);
+  
+  border-radius: 10px;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  aspect-ratio: 16/9;   /* controla a proporção do card */
 }
 
 
 
 .cartao-categoria2{
   background-image: url(/mensagemMaga.png);
+
+  border-radius: 10px;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  aspect-ratio: 16/9;   /* controla a proporção do card */
 }
 
 .cartao-categoria3{
   background-image: url(/cartaoMaga.png);
+
+  border-radius: 10px;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  aspect-ratio: 16/9;   /* controla a proporção do card */
 }
 
 .cartao-imagem{

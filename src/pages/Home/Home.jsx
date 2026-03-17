@@ -146,8 +146,8 @@ function Home() {
         </Container>
       </section>
 
-      {/* CATEGORIAS 2 */}
-      <section className="py-5">
+      {/* CATEGORIAS 2 */}  {/*RETIREI ESSA SEÇÃO */}
+      {/*<section className="py-5">
         <Container>
           <h2 className="mb-4">Categorias 2</h2>
 
@@ -167,7 +167,7 @@ function Home() {
             ))}
           </Row>
         </Container>
-      </section>
+      </section>*/}
 
       {/* PRODUTOS EM DESTAQUE */}
       <section className="bg-light py-5">

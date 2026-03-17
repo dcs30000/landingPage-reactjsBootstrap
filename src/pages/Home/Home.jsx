@@ -128,8 +128,9 @@ function Home() {
             </Col>
 
             <Col md={4}>
+             <a href="">
               <Card className="h-100 cartao-categoria3">
-                <Card.Body>
+                {/*<Card.Body>
                   <Card.Title>Beleza</Card.Title>
                   <Card.Text>
                     Cuidados pessoais e estética.
@@ -137,8 +138,9 @@ function Home() {
                   <Button as={Link} to="/beleza" variant="outline-dark">
                     Acessar
                   </Button>
-                </Card.Body>
+                </Card.Body>*/}
               </Card>
+             </a> 
             </Col>
           </Row>
         </Container>

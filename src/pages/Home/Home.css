@@ -206,12 +206,12 @@
 
 /*HOME-CATEGORIAS*/
 .home-categorias{
-  border: 1px solid green;
+  /*border: 1px solid green;*/
   margin-top: 10px;
 }
 
 .cartao-categoria{
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   /*background-color: blueviolet;*/
   background-image: url(/produtosMaga.png);
   

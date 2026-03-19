@@ -179,7 +179,7 @@ function Home() {
             {produtos.map((produto) => (             
               <Card className="product-card" key={produto.id}>
                 <Card.Body>
-                  <img src="/public/produto.png" alt="produto.nome" className="product-img" />
+                  <img src={produto.imagem} alt={produto.nome} className="product-img" />
 
                   <h6 className="mt-2">
                      {produto.nome}

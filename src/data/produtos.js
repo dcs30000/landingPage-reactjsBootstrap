@@ -38,6 +38,7 @@ export const produtos = [
     id:6,
     nome: "Bebida energética Red Bull",
     preco: 24.95,
-    imagem: "/public/redbullMaga.png" 
+    imagem: "/redbullMaga.png",
+    rating: 4.7 
   }
 ]

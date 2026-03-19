@@ -1,5 +1,6 @@
 import { Container, Row, Col, Card, Button, Carousel } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import { produtos } from '../../data/produtos';
 
 {/* Importando o CSS */}
 import './Home.css'
@@ -174,19 +175,20 @@ function Home() {
           <h4 className="mb-3">Mais vendidos</h4>
 
           <div className="vitrine-scroll">
-            {[1,2,3,4,5,6].map((item) => (
-              <Card className="product-card" key={item}>
+            {/*{[1,2,3,4,5,6].map((item) => (*/}
+            {produtos.map((produto) => (             
+              <Card className="product-card" key={produto.id}>
                 <Card.Body>
-                  <img src="/produto.png" alt="produto" className="product-img" />
+                  <img src="/produto.png" alt="produto.nome" className="product-img" />
 
                   <h6 className="mt-2">
-                    Produto exemplo {item}
+                     {produto.nome}
                   </h6>
 
-                  <strong className="price">R$ 59,90</strong>
+                  <strong className="price">R$ {produto.preco}</strong>
 
                   <div className="rating">
-                    ⭐⭐⭐⭐⭐
+                    ⭐⭐⭐⭐⭐ {produto.rating}
                   </div>
                 </Card.Body>
               </Card>

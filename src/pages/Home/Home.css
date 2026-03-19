@@ -254,8 +254,7 @@
   display: flex;
   gap: 16px;
   overflow-x: auto;
-  padding-bottom: 10px;
-  border: 1px solid red;
+  padding-bottom: 10px;  
 }
 
 .vitrine-scroll::-webkit-scrollbar{

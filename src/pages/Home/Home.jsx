@@ -177,7 +177,7 @@ function Home() {
           <div className="vitrine-scroll">
             {/*{[1,2,3,4,5,6].map((item) => (*/}
             {produtos.map((produto) => (             
-              <Card className="product-card" key={produto.id}>
+              <Card className="product-card" key={produto.id} as={Link} to={"/produto.id"}>
                 <Card.Body>
                   <img src={produto.imagem} alt={produto.nome} className="product-img" />
 
@@ -196,6 +196,43 @@ function Home() {
           </div>
         </Container>
       </section>
+      {/*SECAO DE TESTE */}
+      <section className='home-vitrine2 py-4'>
+        <Container>
+
+          <div className="vitrine-scroll">
+
+            {produtos.slice(0,5).map((produto) => (
+              <Card 
+                className="product-card" 
+                key={produto.id} 
+                as={Link} 
+                to={`/produto/${produto.id}`}
+              >
+
+                {/* IMAGEM */}
+                <div className="product-img-container">
+                  <img 
+                    src={produto.imagem} 
+                    alt={produto.nome} 
+                    className="product-img"
+                  />
+                </div>
+
+                {/* CONTEÚDO */}
+                <Card.Body>
+                  <h6>{produto.nome}</h6>
+                  <strong>R$ {produto.preco}</strong>
+                </Card.Body>
+
+              </Card>
+            ))}
+
+          </div>
+
+        </Container>
+      </section>
+
 
 
       {/* PRODUTOS EM DESTAQUE */}

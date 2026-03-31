@@ -225,6 +225,10 @@ function Home() {
                   <strong>R$ {produto.preco}</strong>
                 </Card.Body>
 
+                <div className="rating">
+                  ⭐⭐⭐⭐⭐ {produto.rating}
+                </div>
+
               </Card>
             ))}
 

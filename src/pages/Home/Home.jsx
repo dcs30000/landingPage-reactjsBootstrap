@@ -202,7 +202,7 @@ function Home() {
 
           <div className="vitrine-scroll">
 
-            {produtos.slice(0,5).map((produto) => (
+            {produtos.slice(0,6).map((produto) => (
               <Card 
                 className="product-card" 
                 key={produto.id} 

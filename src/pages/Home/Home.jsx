@@ -204,7 +204,7 @@ function Home() {
 
             {produtos.slice(0,6).map((produto) => (
               <Card 
-                className="product-card" 
+                className="product-card2" 
                 key={produto.id} 
                 as={Link} 
                 to={`/produto/${produto.id}`}
@@ -215,7 +215,7 @@ function Home() {
                   <img 
                     src={produto.imagem} 
                     alt={produto.nome} 
-                    className="product-img"
+                    className="product-img2"
                   />
                 </div>
 

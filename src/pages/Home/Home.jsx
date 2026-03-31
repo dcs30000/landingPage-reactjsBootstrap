@@ -177,7 +177,7 @@ function Home() {
           <div className="vitrine-scroll">
             {/*{[1,2,3,4,5,6].map((item) => (*/}
             {produtos.map((produto) => (             
-              <Card className="product-card" key={produto.id} as={Link} to={"/produto.id"}>
+              <Card className="product-card" key={produto.id} as={Link} to={`/produto/${produto.id}`}>
                 <Card.Body>
                   <img src={produto.imagem} alt={produto.nome} className="product-img" />
 

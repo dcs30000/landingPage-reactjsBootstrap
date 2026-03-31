@@ -278,6 +278,11 @@
   border: 1px solid red;
   
 }
+
+.rating{
+  border: 1px solid blue;
+  font-size: medium;
+}
 /*NOVO*/
 .product-card2{
   overflow: hidden;
